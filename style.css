@@ -3,6 +3,8 @@ body{
     flex-direction: column;
     margin: 0;
     
+    font-family:Arial, Helvetica, sans-serif
+       
 }
 
 .header{
@@ -10,77 +12,126 @@ body{
     flex-direction: column;
     background-color: #1f2937;
     color: #f9f9f8;
-    padding: 0 56px;
+    padding: 0 250px;
     
 }
 
 .top{
     display:flex;
     justify-content: space-between;
+    flex:1;
+}
+
+.top p{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .top ul{
     display:flex;
+    align-items: center;
     list-style: none;
-    gap:8px;
+    gap:24px;
+    margin:0;
+    padding:0;
 }
 
 .top ul li a{
     text-decoration: none;
-    color: #f9f9f8
+    color: #f9f9f8;
 }
 
 .hero{
     
     display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex:1;
-    gap:24px;
+    
+    
     padding: 48px 0;
+    flex:1;
+    gap:32px;
+    
 }
 
+.left{
+    max-width: 50%;
+    
+}
+
+.left h1{
+    font-size: 48px;
+    font-weight:800;
+    color: #F9F1F8
+}
 
 .right{
     background:grey;
     display:flex;
     align-items: center;
+    justify-content: center;
     padding:32px;
+    flex-grow:1;
 }
 
 .second{
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding:0 250px;
 }
 
 .card{
     display:flex;
     flex-direction: column;
     align-items: center;
+    width:150px;
+    color: grey
+    
 }
 
 .card div{
-    border: 2px solid red;
+    border: 3px solid #3882F6;
     height:80px;
     width: 80px;
+    border-radius: 5px;
 }
 
 .card-container{
     display:flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: space-evenly;
+    gap: 18px;
+    text-align: center;
 }
 
 .third{
     background-color: #E5E7EB;
-    color:#1f2937
+    color:#1f2937;
 }
 
 .quote-container{
     display:flex;
     flex-direction: column;
     align-items: center;
+    padding:0 350px;
+}
+
+.quote{
+    display:flex;
+    justify-content: flex-start;
+    text-align: left;
+    color:#1f2937;
+    
+}
+
+p.quote{
+    font-size: 26px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+p.sayer{
+    text-align: right;
+    width:100%;
 }
 
 .footer{
@@ -89,4 +140,49 @@ body{
     align-items: center;
     justify-content: center;
     gap:120px;
+    background-color: #f9f9f8;
+    padding: 50px 250px;
+    
+}
+
+.hero button{
+    background-color: #3882f6;
+    color:#E5E7EB;
+    border-radius: 5px;
+    border-width:0;
+    padding:5px 20px;
+    font-weight:900;
+}
+
+.footer-container{
+    background-color: #3882f6;
+    display:flex;
+    flex:1;
+    border-radius: 5px;
+    color: #f9f9f8;
+    justify-content: space-between;
+    padding:25px 100px;
+    
+}
+
+.action-text{
+    display:flex;
+    flex-direction:column;
+    align-self: center;
+    flex:1;
+}
+
+.call{
+    font-weight:900;
+}
+
+.footer .footer-container button{
+    background-color: #3882f6;
+    color:#f9f9f8;
+    border-radius: 5px;
+    padding:5px 20px;
+    font-weight:900;
+    border-color: #f9f9f8;
+    border-width: 2px;
+    align-self: center;
 }
