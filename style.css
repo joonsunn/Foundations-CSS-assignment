@@ -151,9 +151,9 @@ p.sayer{
     background-color: #3882f6;
     color:#E5E7EB;
     border-radius: 5px;
-    border-width:0;
     padding:5px 20px;
     font-weight:900;
+    border-width:0;
 }
 
 .footer-container{
@@ -180,11 +180,12 @@ p.sayer{
 
 .footer .footer-container button{
     background-color: #3882f6;
-    color:#f9f9f8;
+    color:white;
     border-radius: 5px;
     padding:5px 20px;
     font-weight:900;
-    border-color: #f9f9f8;
+    border-color: white;
     border-width: 2px;
+    border-style:solid;
     align-self: center;
 }
