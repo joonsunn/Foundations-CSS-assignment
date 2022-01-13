@@ -127,11 +127,13 @@ p.quote{
     font-size: 26px;
     font-weight: lighter;
     font-style: italic;
+    margin-bottom: 0px;
 }
 
 p.sayer{
     text-align: right;
     width:100%;
+    margin-top:0;
 }
 
 .footer{
